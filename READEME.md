@@ -1,6 +1,3 @@
-The objective of this lab assignment is to practice using the fundamentals of JavaScript that were explored in lecture.
-
-Objectives
 Create a new project folder and connect it to a github repository. Copy this README.md file into it.
 Create an index.html file and an app.js file and link the two together.
 Create a variable that contains your name as a value. Name the variable appropriately.
