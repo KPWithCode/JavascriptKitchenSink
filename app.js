@@ -45,10 +45,38 @@ checkAge(names[1], 27);
 checkAge(names[2], 18);
 checkAge(names[3], 17);
 
-// Array for favorite Vegetables
+
+// Array for favorite Vegetables & 
+// Use a loop to display each of your favorite vegetables 
+// to the developer console.
+
 var favVeggies = ['Carrots', 'Radish', 'Cabbage', 'Lettuce'];
 
-for(let i = 0; i < favVeggies.length; i++)   {
-    console.log (favVeggies[i]);
+for (let i = 0; i < favVeggies.length; i++) {
+    console.log(favVeggies[i]);
 
 }
+
+// Create an array of 5 objects that contain name and age properties.
+
+let objects = [{
+    name: 'Clyde',
+    age: 23
+},
+{
+    name: 'Aaron',
+    age: 14
+},
+{
+    name: 'Ashley',
+    age: 19
+},
+{
+    name: 'Vincent',
+    age: 34
+},
+{
+    name: 'Ryan',
+    age: 26
+}
+];
