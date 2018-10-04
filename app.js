@@ -24,4 +24,9 @@ function checkAge (name,age)
 if (age >21){
     alert ('Sorry ${name} you aren\'t old enough to view this page!');
 } else (age>21)
-checkAge();
+    alert ('Come on in Budster');
+    
+checkAge([0],21);
+checkAge([1],27);
+checkAge([2],18);
+checkAge ([3],17);
