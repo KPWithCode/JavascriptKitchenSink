@@ -59,24 +59,39 @@ for (let i = 0; i < favVeggies.length; i++) {
 
 // Create an array of 5 objects that contain name and age properties.
 
-let objects = [{
-    name: 'Clyde',
-    age: 23
-},
-{
-    name: 'Aaron',
-    age: 14
-},
-{
-    name: 'Ashley',
-    age: 19
-},
-{
-    name: 'Vincent',
-    age: 34
-},
-{
-    name: 'Ryan',
-    age: 26
-}
+let ThemePark = [{
+        name: 'Clyde',
+        age: 23
+    },
+    {
+        name: 'Aaron',
+        age: 14
+    },
+    {
+        name: 'Ashley',
+        age: 19
+    },
+    {
+        name: 'Vincent',
+        age: 34
+    },
+    {
+        name: 'Ryan',
+        age: 26
+    }
 ];
+
+function checkAge(name, age) {
+
+    if (age < 21) {
+        alert(`Sorry ${name} you STILL aren't old enough to view this page!`);
+    } else {
+        alert('WELCOME TO BIKINI BOTTOM');
+    }
+}
+
+checkAge(ThemePark[0], 23);
+checkAge(ThemePark[1], 14);
+checkAge(ThemePark[2], 19);
+checkAge(ThemePark[3], 34);
+checkAge(ThemePark[4], 26);
