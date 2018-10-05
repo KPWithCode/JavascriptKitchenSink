@@ -81,10 +81,12 @@ let ThemePark = [{
     }
 ];
 
+// Use a loop to call the checkAge function for each object in the array, passing the object's name and age as arguments.
+
 function checkAge(name, age) {
 
     if (age < 21) {
-        alert(`Sorry ${name} you STILL aren't old enough to view this page!`);
+        alert(`Sorry ${name,age} you STILL aren't old enough to view this page!`);
     } else {
         alert('WELCOME TO BIKINI BOTTOM');
     }
@@ -95,3 +97,11 @@ checkAge(ThemePark[1], 14);
 checkAge(ThemePark[2], 19);
 checkAge(ThemePark[3], 34);
 checkAge(ThemePark[4], 26);
+
+
+// getLength that takes any word as an argument
+function getLength(greeting)    {
+    console.log(greeting.length)
+}
+
+getLength("HelloWorld");
