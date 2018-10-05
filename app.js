@@ -101,7 +101,19 @@ checkAge(ThemePark[4], 26);
 
 // getLength that takes any word as an argument
 function getLength(greeting)    {
-    console.log(greeting.length)
+   
+    return(greeting.length)
 }
 
 getLength("HelloWorld");
+// Store the returned result of that function in a variable.
+// Check the number in the variable from the previous objective. 
+// Find out if it;s odd or even
+let stored = getLength("HelloWorld");   {
+    if("HelloWorld" %2 ==0) {
+        alert(`The World Is Nice & Even`);
+    }   else   {
+        alert(`The World Is An Odd Place`);
+
+    }
+}
